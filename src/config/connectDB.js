@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 
 // Option 2: Passing parameters separately (sqlite)
-const sequelize = new Sequelize("eridev", "root", null, {
+const sequelize = new Sequelize("phanbinh0409", "root", null, {
   host: "localhost",
   dialect: "mysql",
   logging: false,
