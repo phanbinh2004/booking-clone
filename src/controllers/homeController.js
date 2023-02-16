@@ -63,14 +63,6 @@ let deleteCrud = async (req, res) => {
   } else {
     return res.send("Delete error");
   }
-  // console.log(allUsers);
-  // if (allUsers) {
-  //   return res.render("displayCRUD.ejs", {
-  //     dataTable: allUsers,
-  //   });
-  // } else {
-  //   return res.send("Delete failed");
-  // }
 };
 export {
   getAboutPage,
